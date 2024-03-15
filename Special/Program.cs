@@ -20,6 +20,11 @@ namespace Special
             {
                 return 1;
             }
+            else
+            {
+                // Aplicando a fórmula para os números seguintes na sequência
+                return 2 * GetSpecial(n - 1) + GetSpecial(n - 2);
+            }
             
             
             
