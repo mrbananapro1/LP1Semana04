@@ -32,5 +32,10 @@ namespace BetterDecorator
             string decoration = new string(dec, repeat);
             return $"{decoration}{s}{decoration}";
         }
+
+        private static string Decor()
+        {
+            return Decor("User did not specify args!", '=', 3);
+        }
     }
 }
