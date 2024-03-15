@@ -33,6 +33,10 @@ namespace BetterDecorator
             return $"{decoration}{s}{decoration}";
         }
 
+        /// <summary>
+        /// Decora uma mensagem padrão quando o usuário não especifica argumentos na linha de comando.
+        /// </summary>
+        /// <returns>A mensagem padrão decorada.</returns>
         private static string Decor()
         {
             return Decor("User did not specify args!", '=', 3);
