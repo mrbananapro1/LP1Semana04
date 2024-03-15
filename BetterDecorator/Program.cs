@@ -2,6 +2,9 @@
 
 namespace BetterDecorator
 {
+    /// <summary>
+    /// Um programa simples que decora uma string com um caractere específico em ambos os lados.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -12,7 +15,7 @@ namespace BetterDecorator
                 return;
             }
             string str = args[0];
-            char dec = args[1][0]; // Pegando o primeiro caractere da segunda string
+            char dec = args[1][0];
             int repeat = int.Parse(args[2]);
             
             Console.WriteLine(Decor(str, dec, repeat));

@@ -6,9 +6,9 @@ namespace Special
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetSpecial(0)); // Devolve 0
-            Console.WriteLine(GetSpecial(2)); // Devolve 1
-            Console.WriteLine(GetSpecial(7)); // Devolve 43
+            Console.WriteLine(GetSpecial(0));
+            Console.WriteLine(GetSpecial(2));
+            Console.WriteLine(GetSpecial(7));
         }
         private static int GetSpecial(int n)
         {
@@ -22,7 +22,7 @@ namespace Special
             }
             else
             {
-                // Aplicando a fórmula para os números seguintes na sequência
+                
                 return 2 * GetSpecial(n - 1) + GetSpecial(n - 2);
             }
             
