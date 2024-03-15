@@ -12,6 +12,8 @@ namespace BetterDecorator
                 return;
             }
             string str = args[0];
+            char dec = args[1][0]; // Pegando o primeiro caractere da segunda string
+            
             
         }
     }
